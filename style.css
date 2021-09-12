@@ -1,0 +1,35 @@
+body, html {
+    background-color: rgb(144, 144, 144);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+#container {
+    background-color: lightblue;
+    width: max-content;
+    max-width: 80%;
+    margin: 4em auto;
+    padding: 1em;
+    border-radius: 4px;
+    box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    overflow: auto;
+    border-style: outset;
+    border: lightblue;
+    border-width: 4px;
+}
+
+a:link, a:visited {
+    color: #38488f;
+    text-decoration: none;
+}
+
+.side {
+    float: right;
+    max-width: 50%;
+    max-height: 50%;
+    margin: 8px;
+}
