@@ -16,13 +16,13 @@ let snake,                  // The data structure storing all the segments of th
 
 function reset () {
     document.getElementById('score').innerHTML = ""
-    snake = [];                     
-    apples = [];                    
-    snakeHead = { x: 0, y: 0 };     
-    snakeDirection = 'S';           
-    snakeAlive = true;              
-    snakeMaxLength = START_LENGTH;  
-    snakeAlreadyTurned = false;     
+    snake = [];
+    apples = [];
+    snakeHead = { x: 0, y: 0 };
+    snakeDirection = 'S';
+    snakeAlive = true;
+    snakeMaxLength = START_LENGTH;
+    snakeAlreadyTurned = false;
 }
 
 /*-------------------------------------------------------
